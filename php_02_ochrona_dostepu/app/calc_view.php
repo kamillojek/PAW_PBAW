@@ -16,15 +16,17 @@
 
 <div style="width:90%; margin: 2em auto;">
 
-    <form action="<?php print(_APP_URL);?>/app/calc.php" method="post">
+    <form action="<?php print(_APP_URL);?>/app/calc.php" method="post" class="pure-form pure-form-stacked>
+	<fieldset>
         <label for="id_kwota">Kwota kredytu: </label>
-        <input id="id_kwota" type="text" name="kwota" placeholder="np. 100000 (zł)" value="<?php if(isset($kwota)){print($kwota);} ?>" /> zł<br />
+        <input id="id_kwota" type="text" name="kwota" placeholder="np. 100000 (zł)" value="<?php out($kwota) ?>" /> zł<br />
         <label for="id_oprocentowanie">Oprocentowanie: </label>
         <input id="id_oprocentowanie" type="text" name="oprocentowanie" placeholder="np. 5.3 (%)" value="<?php if(isset($oprocentowanie)){print($oprocentowanie);} ?>" /> %<br />
         <label for="id_raty">Ile lat chcesz spłacać kredyt: </label>
         <input id="id_raty" type="text" name="raty" placeholder="np. 2 (lat)" value="<?php if(isset($raty)){print($raty);} ?>" /> lat<br />
         <input type="submit" value="Oblicz" class="pure-button pure-button-primary" />
-    </form>
+   </fieldset>
+   </form>
 
     <?php
     //wyświeltenie listy błędów, jeśli istnieją
