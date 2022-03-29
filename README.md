@@ -1,8 +1,8 @@
 # PAW_PBAW
-Ćwiczenie 1: php_01_widok_kontroler
+<b> Ćwiczenie 1 </b>: php_01_widok_kontroler
 
-Ćwiczenie 2: php_02_ochrona_dostepu
+<b> Ćwiczenie 2 </b>: php_02_ochrona_dostepu
 
-Ćwiczenie 3 i 4: php_04_uproszczony
+<b> Ćwiczenie 3 i 4 </b>: php_04_uproszczony
 
-Ćwiczenie 5 i 6: php_06_uproszczony
+<b> Ćwiczenie 5 i 6 </b>: php_06_uproszczony
